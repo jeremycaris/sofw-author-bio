@@ -1,0 +1,23 @@
+.sofw-author-bio {
+    display: block;
+    margin: 4rem 2rem;
+}
+
+.sofw-author-bio img {
+    float: left;
+    margin: 10px 1.4rem 0 0;
+}
+
+.sofw-author-bio h2 {
+    margin: 0;
+}
+
+@media all and (max-width: 480px) {
+    .sofw-author-bio {
+        text-align: center;
+    }
+    .sofw-author-bio img {
+        margin: 0 0 1rem;
+        float: none;
+    }
+}
